@@ -1,7 +1,7 @@
 const arr = new Array(1000000).fill("Hello");
 
 findHello = (arr) => {
-  //const t0 = performance.now();
+  const t0 = performance.now();
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === "Hello") {
       console.log("Found Hello");
